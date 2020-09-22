@@ -25,7 +25,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1345000000
+              "duration": 3744000000
             }
           },
           {
@@ -38,7 +38,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 246000000
+              "duration": 223000000
             }
           },
           {
@@ -51,7 +51,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 96000000
+              "duration": 120000000
             }
           },
           {
@@ -64,7 +64,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 622000000
+              "duration": 660000000
             }
           },
           {
@@ -77,7 +77,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31000000
+              "duration": 15000000
             }
           },
           {
@@ -90,7 +90,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 88000000
+              "duration": 48000000
             }
           }
         ]

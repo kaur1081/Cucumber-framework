@@ -7,3 +7,4 @@ Feature: Google Search
     Then I press ENTER
     Then the url should contain "https://www.google.com/search?"
     Then I should see the "first result" element containing the text "cucumber/cucumber-js: Cucumber for JavaScript - GitHub"
+  
