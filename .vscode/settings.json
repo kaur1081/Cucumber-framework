@@ -1,0 +1,10 @@
+{
+    "editor.quickSuggestions": true,
+    "window.zoomLevel": 1,
+    "cucumberautocomplete.steps": [
+        "step-definitions/*",
+        "node_modules/cucumber/lib/models/*"
+    ],
+    "cucumberautocomplete.syncfeatures": "features/*",
+    "cucumberautocomplete.strictGherkinCompletion": true
+    } 

@@ -1,0 +1,1775 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Google Search",
+    "line": 2,
+    "id": "google-search",
+    "tags": [],
+    "uri": "features/google.feature",
+    "elements": [
+      {
+        "id": "google-search;basic-search",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Basic Search",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to \"https://google.com\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click on the \"search\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I type \"cucumberjs\" in the \"search\" element",
+            "match": {
+              "location": "step-definitions/index.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I press ENTER",
+            "match": {
+              "location": "step-definitions/index.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 979000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the url should contain \"https://www.google.com/search?\"",
+            "match": {
+              "location": "step-definitions/index.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the \"first result\" element containing the text \"cucumber/cucumber-js: Cucumber for JavaScript - GitHub\"",
+            "match": {
+              "location": "step-definitions/index.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test steps for old login scenario",
+    "line": 1,
+    "id": "test-steps-for-old-login-scenario",
+    "tags": [],
+    "uri": "features/oldLogin.feature",
+    "elements": [
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-sa2-robert",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "old login test for SA2 Robert",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1539000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I click on the \"name option\" element containing the text \"SA2 Robert\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the url should be on \"http://localhost:4200/#/surgery/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1546000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-sa-benny",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "old login test for SA Benny",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I click on the \"name option\" element containing the text \"SA Benny\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 582000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the url should be on \"http://localhost:4200/#/dashboard\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-cta4-lina-amini,-md",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "old login test for CTA4 Lina Amini, MD",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I click on the \"name option\" element containing the text \"CTA4 Lina Amini, MD\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 590000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-physician-1-surgeon",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "old login test for Physician 1 Surgeon",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I click on the \"name option\" element containing the text \"Physician 1 Surgeon\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 586000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-cta5-tommy-korn,-md",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "old login test for CTA5 Tommy Korn, MD",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 466000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I click on the \"name option\" element containing the text \"CTA5 Tommy Korn, MD\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 584000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-cta3-gayle-howard,-md",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "old login test for CTA3 Gayle Howard, MD",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 46,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I click on the \"name option\" element containing the text \"CTA3 Gayle Howard, MD\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 599000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-ctm4-mizelle-h",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "old login test for CTM4 Mizelle H",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 55,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 453000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I click on the \"name option\" element containing the text \"CTM4 Mizelle H\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 606000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 486000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 544000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-cta1-bishoy-said,-md",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "old login test for CTA1 Bishoy Said, MD",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 64,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 431000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "I click on the \"name option\" element containing the text \"CTA1 Bishoy Said, MD\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 604000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 550000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-cta2-eric-linebarger,-md",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "old login test for CTA2 Eric Linebarger, MD",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 73,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "I click on the \"name option\" element containing the text \"CTA2 Eric Linebarger, MD\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 604000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 498000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 580000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-ctm5-janet-h",
+        "keyword": "Scenario",
+        "line": 81,
+        "name": "old login test for CTM5 Janet H",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 82,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 86,
+            "name": "I click on the \"name option\" element containing the text \"CTM5 Janet H\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 613000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 87,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 482000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 561000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-ctm3-natasha-s",
+        "keyword": "Scenario",
+        "line": 90,
+        "name": "old login test for CTM3 Natasha S",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 91,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 92,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 94,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 95,
+            "name": "I click on the \"name option\" element containing the text \"CTM3 Natasha S\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 615000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 96,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 589000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-ctm9-shawna-e",
+        "keyword": "Scenario",
+        "line": 99,
+        "name": "old login test for CTM9 Shawna E",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 100,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 101,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 102,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 103,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 104,
+            "name": "I click on the \"name option\" element containing the text \"CTM9 Shawna E\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 105,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 482000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 106,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 569000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-ctm1-brenda-l",
+        "keyword": "Scenario",
+        "line": 108,
+        "name": "old login test for CTM1 Brenda L",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 109,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 110,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 111,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 112,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 113,
+            "name": "I click on the \"name option\" element containing the text \"CTM1 Brenda L\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 604000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 114,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 115,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 553000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-ctm2-angela-c",
+        "keyword": "Scenario",
+        "line": 117,
+        "name": "old login test for CTM2 Angela C",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 118,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 119,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 120,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 121,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 122,
+            "name": "I click on the \"name option\" element containing the text \"CTM2 Angela C\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 612000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 123,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 124,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 545000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-ctm8-michael-c",
+        "keyword": "Scenario",
+        "line": 126,
+        "name": "old login test for CTM8 Michael C",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 127,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 128,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 129,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 130,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 131,
+            "name": "I click on the \"name option\" element containing the text \"CTM8 Michael C\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 599000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 132,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 514000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 133,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 554000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-ctm6-craig-m",
+        "keyword": "Scenario",
+        "line": 135,
+        "name": "old login test for CTM6 Craig M",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 136,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 137,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 138,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 139,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 140,
+            "name": "I click on the \"name option\" element containing the text \"CTM6 Craig M\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 141,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 142,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 564000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-steps-for-old-login-scenario;old-login-test-for-ctm7-cristina-h",
+        "keyword": "Scenario",
+        "line": 144,
+        "name": "old login test for CTM7 Cristina H",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 145,
+            "name": "I go to \"http://localhost:4200/\"",
+            "match": {
+              "location": "step-definitions/index.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 146,
+            "name": "the url should be on \"http://localhost:4200/#/oldlogin\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 147,
+            "name": "I click on the \"select user dropdown\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 148,
+            "name": "I scroll the \"scroll view\" element to 1",
+            "match": {
+              "location": "step-definitions/index.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 149,
+            "name": "I click on the \"name option\" element containing the text \"CTM7 Cristina H\"",
+            "match": {
+              "location": "step-definitions/index.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 618000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 150,
+            "name": "I click on the \"login button\" element",
+            "match": {
+              "location": "step-definitions/index.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 151,
+            "name": "the url should be on \"http://localhost:4200/#/care-team/list\"",
+            "match": {
+              "location": "step-definitions/index.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 558000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+    "name option": "//*[@class=\"mat-option-text\"]",
+    "first result": "//*[@class=\"LC20lb DKV0Md\"]",
+    "login button": "//button[@class='btn login-btn']",
+    "search": "//input[@title='Search']",
+    "select user dropdown": "//span[contains(@class,'mat-select-placeholder')]",
+    "Surgery Admin" :"//*h5[@class='card-title mt-3']",
+    "scroll view": "//*[contains(@class,'mat-select-panel')]"
+}
+
+
+  
