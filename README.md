@@ -9,3 +9,7 @@ In this project I used:
  Git collaboration,
  Jira,
  Testrail.
+
+Cucumber was use to write an acceptance test for a web application translating gherkin syntax into step definition.
+Nightwatch.js is a javascript library used in an automated testing framework written in Node. There are many other libraries but I choose nightwatch as it is a convention in the company.
+Node.js is an open source development platform for executing JavaScript code server-side.
